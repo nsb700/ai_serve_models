@@ -1,0 +1,144 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Courier;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.main-links {
+  width:200px;
+  height:150px;
+  background-color: #FFB643;
+  color: #000;
+  margin:10px;
+  border-radius: 20px;
+}
+
+/* nav bar styling */
+
+nav{
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #4535AA;
+    color: #fff;
+}
+
+#nav-options a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000;
+    background-color: #FFB643;
+    border-radius: 5px;
+    margin-right:4px;
+}
+
+/*
+    Profile info
+*/     
+.header
+{
+    padding:30px;
+    background-color: #000;
+}
+
+.application-info
+{
+    flex:10;
+    padding:2px;
+    color: #eee;
+}
+
+.ai-pic{
+    flex:1;
+    padding:2px;
+}
+
+/* text colors */
+
+.text-yellow {
+    color: #ffb643;
+}
+
+.text-pink {
+    color: #ed639e;
+}
+
+.text-purple {
+    color: #4353aa;
+}
+
+/* spacing and layout properties */
+.p-1 {
+    padding: 10px;
+}
+.p-2 {
+    padding: 20px;
+}
+.center {
+    text-align: center;
+}
+
+/* common styling */
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Form styling */
+input {
+  padding:5px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width:250px;
+  margin: 5px 0;
+}
+
+textarea {
+  padding:5px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width:250px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #4353aa;
+  color: #eee;
+  border-radius: 5px;
+  border:0;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.resizable-textbox {
+    resize: both;
+    overflow: auto;
+}
+
+/* responsive */
+
+@media (max-width: 650px) {
+    .flex
+    {
+        flex-direction: column;
+    }
+
+    #nav-options a {
+        font-size: 0.75em;
+    }
+}
