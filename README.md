@@ -39,12 +39,12 @@ source ~/my_dir_for_venvs/my-venv/bin/activate
 ### (3) Clone this repository :-
 ```commandline
 cd ~/
-git clone https://github.com/nsb700/ai_summarizer_and_transplant_bundle.git ai_app
+git clone https://github.com/nsb700/ai_serve_models.git ai_serve_models
 ```
 
 ### (4) Install all required dependencies and start Uvicorn for the backend application (on port 8000) :-
 ```commandline
-cd ~/ai_app
+cd ~/ai_serve_models
 make all
 ```
 
@@ -52,7 +52,7 @@ make all
 
 ```commandline
 source ~/my_dir_for_venvs/my-venv/bin/activate
-cd ~/ai_app
+cd ~/ai_serve_models
 make startreact
 ```
 
